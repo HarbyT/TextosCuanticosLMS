@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configuración</title>
+    <link rel="stylesheet" href="../src/style.css">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <a href="../src/index.html" class="logo">
+                <img src="../assets/TextosCuanticosLogo.png" alt="Logo de Textos Cuánticos">
+            </a>
+            <button class="nav-toggle" aria-label="Abrir menú de navegación">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="../src/index.html">Inicio</a></li>
+                    <li><a href="../src/cursos.html">Cursos</a></li>
+                    <li><a href="../src/tutorias.html">Tutorías</a></li>
+                    <li><a href="../src/calendario.html">Calendario</a></li>
+                    <li><a href="../src/perfil.html">Perfil</a></li>
+                    <li><a href="../src/configuracion.html">Configuración</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+    <main>
+        <h1>Configuración</h1>
+        <div class="config-container">
+            <div class="config-group">
+                <h2>Notificaciones</h2>
+                <p>Recibir notificaciones de nuevos contenidos</p>
+                <label class="switch">
+                    <input type="checkbox" checked>
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <div class="config-group">
+                <h2>Privacidad</h2>
+                <p>Ocultar mi perfil de búsqueda</p>
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <div class="config-group">
+                <h2>Idioma</h2>
+                <select>
+                    <option value="es">Español</option>
+                    <option value="en">English</option>
+                </select>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>© 2023 Textos Cuánticos. Todos los derechos reservados.</p>
+    </footer>
+    <script src="../src/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesión</title>
+    <link rel="stylesheet" href="../src/style.css">
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <a href="../src/index.html" class="logo">
+                <img src="../assets/TextosCuanticosLogo.png" alt="Logo de Textos Cuánticos">
+            </a>
+            <button class="nav-toggle" aria-label="Abrir menú de navegación">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="../src/index.html">Inicio</a></li>
+                    <li><a href="../src/cursos.html">Cursos</a></li>
+                    <li><a href="../src/tutorias.html">Tutorías</a></li>
+                    <li><a href="../src/calendario.html">Calendario</a></li>
+                    <li><a href="../src/perfil.html">Perfil</a></li>
+                    <li><a href="../src/configuracion.html">Configuración</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="form-container">
+            <form>
+                <label for="username">Nombre de usuario:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Ingresar</button>
+                <a href="../src/error.html">¿Olvidaste tu contraseña?</a>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>© 2023 Textos Cuánticos. Todos los derechos reservados.</p>
+    </footer>
+    <script src="../src/index.js"></script>
+</body>
+</html>
