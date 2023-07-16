@@ -39,6 +39,12 @@ main .Principal {
     height: calc(100vh - 130px);
 }
 
+.hero {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	}
 .form-container {
     background-color: #fff;
     border-radius: 10px;
@@ -107,10 +113,15 @@ form a:hover {
 }
 
 footer {
+	display: flex;
+	flex-direction: row;
+    justify-content: center;
+    align-items: center;
     background-color: #034AA6;
     padding: 20px;
     text-align: center;
     color: #fff;
+    font-family: Satisfy, sans-serif;
 }
 
 form h2 {
@@ -142,7 +153,7 @@ h1 {
 }
 
 footer{
-    font-family: Satisfy, sans-serif;
+ 
 }
 
 p {
